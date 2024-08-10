@@ -92,47 +92,65 @@ if (moveY &lt; 10) {
 }
 
 //Collision Check
-if (place_meeting(x, y + moveY,object1_ground)) {
-    repeat(abs(moveY)) {  
-        if (not place_meeting (x, y +sign (moveY), object1_ground))  {
-            y += sign(moveY)
+if (place_meeting(x + moveX, y,object1_ground)) {
+    repeat(abs(moveX)) {  
+        if (not place_meeting (x +sign (moveX),y, object1_ground))  {
+            x += sign(moveX)
         }
-    }
-    moveY = 0
     
-if (place_meeting(x + moveX, y, object12_ground_1)) {
-    repeat(abs(moveX)) {
-        if (not place_meeting(x, y + sign(moveX), object12_ground_1))
-                y += sign(moveX)
+    moveX = 0
+    }
+}
+if (place_meeting(x , y + moveY, object1_ground)) {
+    repeat(abs(moveY)) {
+        if (not place_meeting(x,y + sign(moveY), object1_ground))
+                y += sign(moveY)
         }
         
-        }
+        
     moveY = 0
+}
+if (place_meeting(x + moveX, y,object_dirt_block)) {
+    repeat(abs(moveX)) {  
+        if (not place_meeting (x +sign (moveX),y, object_dirt_block))  {
+            x += sign(moveX)
+        }
+    
+    moveX = 0
+    }
+}
+if (place_meeting(x , y + moveY, object_dirt_block)) {
+    repeat(abs(moveY)) {
+        if (not place_meeting(x,y + sign(moveY), object_dirt_block))
+                y += sign(moveY)
+        }
         
-if (place_meeting(x + moveX,y , object14_ground_2)) {
-    repeat(abs(moveX)) {
-        if (not place_meeting(x, y + sign(moveX), object14_ground_2))
-                y += sign(moveX)
-        }
-     
         
+    moveY = 0
+}
+if (place_meeting(x + moveX, y,object_bridge)) {
+    repeat(abs(moveX)) {  
+        if (not place_meeting (x +sign (moveX),y, object_bridge))  {
+            x += sign(moveX)
         }
-     moveY = 0
-     
-if (place_meeting(x + moveX,y , object_dirt_block)) {
-    repeat(abs(moveX)) {
-        if (not place_meeting(x, y + sign(moveX), object_dirt_block)) 
-                y += sign(moveX)
+    
+    moveX = 0
+    }
+}
+if (place_meeting(x , y + moveY, object_bridge)) {
+    repeat(abs(moveY)) {
+        if (not place_meeting(x,y + sign(moveY), object_bridge))
+                y += sign(moveY)
         }
-     
-        }
+        
+        
     moveY = 0
 }
 
 //Sprite Check
 if (input_left + input_right != 0 and  input_left + input_right !=2) {
     image_xscale = sign(input_right - input_left)
-}
+    }
 
 //Apply Movement
 x += moveX
@@ -181,7 +199,7 @@ y += moveY
         <arguments>
           <argument>
             <kind>11</kind>
-            <room>room3</room>
+            <room>room3_map_2</room>
           </argument>
         </arguments>
       </action>

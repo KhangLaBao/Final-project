@@ -32,12 +32,25 @@
     <sprite>sprites\sprite23_logo_you_win</sprite>
     <sprite>sprites\sprite24_play_again_button</sprite>
     <sprite>sprites\sprite25_logo_menu</sprite>
+    <sprite>sprites\sprite26_collum_1</sprite>
+    <sprite>sprites\sprite27_collum_2</sprite>
+    <sprite>sprites\sprite28_collum_3</sprite>
+    <sprite>sprites\sprite29_collum_4</sprite>
+    <sprite>sprites\sprite30_wall_1</sprite>
+    <sprite>sprites\sprite31_wall_2</sprite>
+    <sprite>sprites\sprite33</sprite>
+    <sprite>sprites\sprite32_map_2_ceiling</sprite>
+    <sprite>sprites\sprite34__bridge_1</sprite>
+    <sprite>sprites\sprite35</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
     <background>background\background1</background>
     <background>background\background3</background>
     <background>background\background4</background>
+    <background>background\background5</background>
+    <background>background\background6</background>
+    <background>background\background7</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path0</path>
@@ -54,18 +67,15 @@
     <object>objects\object3_computer_moniter</object>
     <object>objects\object_player</object>
     <object>objects\object1_ground</object>
-    <object>objects\object12_ground_1</object>
     <object>objects\object2_lab_ground</object>
     <object>objects\object4_table</object>
     <object>objects\object5_teleport_capsle</object>
     <object>objects\object21_telerport_1</object>
+    <object>objects\object26_teleport_2</object>
     <object>objects\object6</object>
     <object>objects\object7_pipe_</object>
     <object>objects\object8_pipe_round</object>
     <object>objects\object_dirt_block</object>
-    <object>objects\object14_ground_2</object>
-    <object>objects\object15_slope_inside_1</object>
-    <object>objects\object16_slope_inside_2</object>
     <object>objects\object14_spike</object>
     <object>objects\object15_game_systym</object>
     <object>objects\object_start_button</object>
@@ -73,12 +83,21 @@
     <object>objects\object18_menu_logo</object>
     <object>objects\object_you_lose</object>
     <object>objects\object20_play_again</object>
+    <object>objects\object_collum_1</object>
+    <object>objects\object_collum_2</object>
+    <object>objects\object24_collum_3</object>
+    <object>objects\object25_collum_4</object>
+    <object>objects\object26_wall_1</object>
+    <object>objects\object27_wall_2</object>
+    <object>objects\object28map_2_ceiling</object>
+    <object>objects\object_bridge</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0_game_over</room>
     <room>rooms\room2_menu</room>
     <room>rooms\room1_map_1</room>
-    <room>rooms\room3</room>
+    <room>rooms\room3_map_2</room>
+    <room>rooms\room_4map_3</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
