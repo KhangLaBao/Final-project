@@ -128,24 +128,6 @@ if (place_meeting(x , y + moveY, object_dirt_block)) {
         
     moveY = 0
 }
-if (place_meeting(x + moveX, y,object_bridge)) {
-    repeat(abs(moveX)) {  
-        if (not place_meeting (x +sign (moveX),y, object_bridge))  {
-            x += sign(moveX)
-        }
-    
-    moveX = 0
-    }
-}
-if (place_meeting(x , y + moveY, object_bridge)) {
-    repeat(abs(moveY)) {
-        if (not place_meeting(x,y + sign(moveY), object_bridge))
-                y += sign(moveY)
-        }
-        
-        
-    moveY = 0
-}
 
 //Sprite Check
 if (input_left + input_right != 0 and  input_left + input_right !=2) {

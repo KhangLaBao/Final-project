@@ -53,8 +53,9 @@
   <instances>
     <instance objName="object15_game_systym" x="0" y="0" name="inst_0CDC18F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_you_lose" x="352" y="96" name="inst_0F68578D" locked="0" code="" scaleX="2.83870959281921" scaleY="2.7826087474823" colour="4294967295" rotation="0"/>
-    <instance objName="object_button_exit" x="416" y="448" name="inst_527A9A67" locked="0" code="" scaleX="1.54838705062866" scaleY="1.39130437374115" colour="4294967295" rotation="0"/>
+    <instance objName="object_button_exit" x="800" y="672" name="inst_527A9A67" locked="0" code="" scaleX="1.54838705062866" scaleY="1.39130437374115" colour="4294967295" rotation="0"/>
     <instance objName="object20_play_again" x="416" y="288" name="inst_B0DAF72F" locked="0" code="" scaleX="1.54838705062866" scaleY="1.39130437374115" colour="4294967295" rotation="0"/>
+    <instance objName="object33_button_go_back_map_menu" x="416" y="384" name="inst_0EFE6FD3" locked="0" code="" scaleX="1.29729723930359" scaleY="1.1851851940155" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

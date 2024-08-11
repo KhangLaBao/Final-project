@@ -42,6 +42,26 @@
     <sprite>sprites\sprite32_map_2_ceiling</sprite>
     <sprite>sprites\sprite34__bridge_1</sprite>
     <sprite>sprites\sprite35</sprite>
+    <sprite>sprites\sprite36_grass_seasn_fall</sprite>
+    <sprite>sprites\sprite37</sprite>
+    <sprite>sprites\sprite38_ladder</sprite>
+    <sprite>sprites\sprite39_map_menu_dev</sprite>
+    <sprite>sprites\sprite41_map_4</sprite>
+    <sprite>sprites\sprite40_map_2</sprite>
+    <sprite>sprites\sprite44_map_menu_</sprite>
+    <sprite>sprites\sprite47_map_5_</sprite>
+    <sprite>sprites\sprite43_map_3</sprite>
+    <sprite>sprites\sprite45_button_main_menu</sprite>
+    <sprite>sprites\sprite48_notic_note</sprite>
+    <sprite>sprites\sprite49_checkpoint</sprite>
+    <sprite>sprites\sprite50_cristal</sprite>
+    <sprite>sprites\sprite51_sign_1</sprite>
+    <sprite>sprites\sprite52_sign_2</sprite>
+    <sprite>sprites\sprite53_sign_3</sprite>
+    <sprite>sprites\sprite54_sign_4</sprite>
+    <sprite>sprites\sprite_sign_5</sprite>
+    <sprite>sprites\sprite56_sigh_6</sprite>
+    <sprite>sprites\sprite57_coin</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -51,6 +71,7 @@
     <background>background\background5</background>
     <background>background\background6</background>
     <background>background\background7</background>
+    <background>background\background8</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path0</path>
@@ -63,6 +84,9 @@
     <script>scripts\script_player_roll.gml</script>
     <script>scripts\script_player_crouch.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\font0</font>
+  </fonts>
   <objects name="objects">
     <object>objects\object3_computer_moniter</object>
     <object>objects\object_player</object>
@@ -72,6 +96,8 @@
     <object>objects\object5_teleport_capsle</object>
     <object>objects\object21_telerport_1</object>
     <object>objects\object26_teleport_2</object>
+    <object>objects\object30_teleport_3</object>
+    <object>objects\object40_teleport_4</object>
     <object>objects\object6</object>
     <object>objects\object7_pipe_</object>
     <object>objects\object8_pipe_round</object>
@@ -90,14 +116,36 @@
     <object>objects\object26_wall_1</object>
     <object>objects\object27_wall_2</object>
     <object>objects\object28map_2_ceiling</object>
-    <object>objects\object_bridge</object>
+    <object>objects\object_ladder</object>
+    <object>objects\object32_map_menu_dev</object>
+    <object>objects\object33_button_go_back_map_menu</object>
+    <object>objects\object34_logo_map_2</object>
+    <object>objects\object35_logo_map_3</object>
+    <object>objects\object37_logo_map_5</object>
+    <object>objects\object36_map_4_logo</object>
+    <object>objects\object_38_note_1</object>
+    <object>objects\object39_checkpoint</object>
+    <object>objects\object41_crtytal</object>
+    <object>objects\object42_you_win</object>
+    <object>objects\object43_sign_1</object>
+    <object>objects\object44_sign_2</object>
+    <object>objects\object45_sign_3</object>
+    <object>objects\object46_sign_4</object>
+    <object>objects\object47_sign_5</object>
+    <object>objects\object48__sign_6</object>
+    <object>objects\object_coin</object>
+    <object>objects\object_point</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\map_rooom_dev</room>
     <room>rooms\room0_game_over</room>
     <room>rooms\room2_menu</room>
     <room>rooms\room1_map_1</room>
     <room>rooms\room3_map_2</room>
     <room>rooms\room_4map_3</room>
+    <room>rooms\room5_map_4</room>
+    <room>rooms\room7_map_5</room>
+    <room>rooms\room8_game__win</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
