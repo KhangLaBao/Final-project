@@ -33,7 +33,7 @@
           </argument>
           <argument>
             <kind>1</kind>
-            <string>Score: </string>
+            <string>SCORE:</string>
           </argument>
         </arguments>
       </action>
@@ -63,7 +63,7 @@
           </argument>
           <argument>
             <kind>1</kind>
-            <string>Score: </string>
+            <string>SCORE:</string>
           </argument>
         </arguments>
       </action>

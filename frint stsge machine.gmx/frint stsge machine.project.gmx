@@ -4,7 +4,11 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sound0</sound>
+    <sound>sound\sound1_forest</sound>
+    <sound>sound\sound2_cave</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprite_player_crouch</sprite>
     <sprite>sprites\sprite_ply_idle</sprite>
@@ -62,6 +66,7 @@
     <sprite>sprites\sprite_sign_5</sprite>
     <sprite>sprites\sprite56_sigh_6</sprite>
     <sprite>sprites\sprite57_coin</sprite>
+    <sprite>sprites\sprite56_EMEMY</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -135,6 +140,7 @@
     <object>objects\object48__sign_6</object>
     <object>objects\object_coin</object>
     <object>objects\object_point</object>
+    <object>objects\object47</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\map_rooom_dev</room>
