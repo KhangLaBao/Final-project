@@ -71,13 +71,13 @@
       </action>
       <action>
         <libid>1</libid>
-        <id>213</id>
+        <id>211</id>
         <kind>0</kind>
         <userelative>0</userelative>
-        <isquestion>-1</isquestion>
+        <isquestion>0</isquestion>
         <useapplyto>0</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_if_sound</functionname>
+        <functionname>action_sound</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
@@ -85,7 +85,11 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>-1</sound>
+            <sound>sound3_credit_for_Tater_Tot_Tunes0</sound>
+          </argument>
+          <argument>
+            <kind>3</kind>
+            <string>0</string>
           </argument>
         </arguments>
       </action>

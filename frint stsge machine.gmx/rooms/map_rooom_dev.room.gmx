@@ -53,9 +53,8 @@
   <instances>
     <instance objName="object1_ground" x="32" y="480" name="inst_7A39405E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object1_ground" x="64" y="480" name="inst_EED527C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object1_ground" x="96" y="480" name="inst_BA8E7B0F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object1_ground" x="0" y="480" name="inst_85FF7704" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object1_ground" x="192" y="480" name="inst_ED34A88D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object1_ground" x="192" y="480" name="inst_ED34A88D" locked="0" code="" scaleX="0.780487775802612" scaleY="0.780487775802612" colour="4294967295" rotation="0"/>
     <instance objName="object1_ground" x="224" y="480" name="inst_29273214" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object1_ground" x="256" y="480" name="inst_E782C4FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object1_ground" x="384" y="480" name="inst_3A79854D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -72,7 +71,7 @@
     <instance objName="object1_ground" x="928" y="480" name="inst_D11CD26C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object1_ground" x="960" y="480" name="inst_EB6CBAD3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object1_ground" x="992" y="480" name="inst_E6F00323" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object21_telerport_1" x="128" y="512" name="inst_91D9FF91" locked="0" code="" scaleX="1.91999995708466" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="object21_telerport_1" x="96" y="512" name="inst_91D9FF91" locked="0" code="" scaleX="3.20000004768372" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="object1_ground" x="96" y="608" name="inst_D07E4CAF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object1_ground" x="128" y="608" name="inst_8C41810F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object1_ground" x="160" y="608" name="inst_4C8BCBBE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

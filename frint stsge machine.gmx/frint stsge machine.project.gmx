@@ -8,6 +8,10 @@
     <sound>sound\sound0</sound>
     <sound>sound\sound1_forest</sound>
     <sound>sound\sound2_cave</sound>
+    <sound>sound\sound3_credit_for_Tater_Tot_Tunes0</sound>
+    <sound>sound\sound4_factory</sound>
+    <sound>sound\sound5_you_win</sound>
+    <sound>sound\sound6_lose</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprite_player_crouch</sprite>
@@ -140,7 +144,10 @@
     <object>objects\object48__sign_6</object>
     <object>objects\object_coin</object>
     <object>objects\object_point</object>
-    <object>objects\object47</object>
+    <object>objects\object47_ememy</object>
+    <object>objects\object48_music_menu</object>
+    <object>objects\object51_music_cave</object>
+    <object>objects\object52_lose_music</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\map_rooom_dev</room>
