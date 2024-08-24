@@ -6,7 +6,7 @@
   <vsnap>32</vsnap>
   <hsnap>32</hsnap>
   <isometric>0</isometric>
-  <speed>30</speed>
+  <speed>60</speed>
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
@@ -57,6 +57,8 @@
     <instance objName="object32_map_menu_dev" x="864" y="672" name="inst_6E8672C7" locked="0" code="" scaleX="0.544680833816528" scaleY="0.703296720981598" colour="4294967295" rotation="0"/>
     <instance objName="object_point" x="0" y="0" name="inst_953D71E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object48_music_menu" x="32" y="0" name="inst_6E89D6DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object51__tutorial_level" x="416" y="448" name="inst_13BDE99C" locked="0" code="" scaleX="0.68085104227066" scaleY="0.703296720981598" colour="4294967295" rotation="0"/>
+    <instance objName="object53_troll" x="32" y="672" name="inst_60AC3D07" locked="0" code="" scaleX="0.68085104227066" scaleY="0.703296720981598" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

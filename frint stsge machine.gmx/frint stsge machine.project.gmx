@@ -71,11 +71,15 @@
     <sprite>sprites\sprite56_sigh_6</sprite>
     <sprite>sprites\sprite57_coin</sprite>
     <sprite>sprites\sprite56_EMEMY</sprite>
+    <sprite>sprites\sprite57__tutorial_level</sprite>
+    <sprite>sprites\sprite58_troll</sprite>
+    <sprite>sprites\sprite59</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
     <background>background\background1</background>
     <background>background\background3</background>
+    <background>background\background9__tutorial_level</background>
     <background>background\background4</background>
     <background>background\background5</background>
     <background>background\background6</background>
@@ -148,6 +152,8 @@
     <object>objects\object48_music_menu</object>
     <object>objects\object51_music_cave</object>
     <object>objects\object52_lose_music</object>
+    <object>objects\object51__tutorial_level</object>
+    <object>objects\object53_troll</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\map_rooom_dev</room>
@@ -159,6 +165,7 @@
     <room>rooms\room5_map_4</room>
     <room>rooms\room7_map_5</room>
     <room>rooms\room8_game__win</room>
+    <room>rooms\room9__tutorial_level</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
