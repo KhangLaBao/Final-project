@@ -74,6 +74,10 @@
     <sprite>sprites\sprite57__tutorial_level</sprite>
     <sprite>sprites\sprite58_troll</sprite>
     <sprite>sprites\sprite59</sprite>
+    <sprite>sprites\sprite61_ememy_1</sprite>
+    <sprite>sprites\sprite60_grenade</sprite>
+    <sprite>sprites\sprite62_BOSS</sprite>
+    <sprite>sprites\sprite63_boss_bullet</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -149,11 +153,14 @@
     <object>objects\object_coin</object>
     <object>objects\object_point</object>
     <object>objects\object47_ememy</object>
+    <object>objects\object56_boss</object>
     <object>objects\object48_music_menu</object>
     <object>objects\object51_music_cave</object>
     <object>objects\object52_lose_music</object>
     <object>objects\object51__tutorial_level</object>
     <object>objects\object53_troll</object>
+    <object>objects\object54_grenade</object>
+    <object>objects\object55_bullet_boss</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\map_rooom_dev</room>

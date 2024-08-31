@@ -381,6 +381,11 @@
     <instance objName="object_coin" x="896" y="480" name="inst_34C29C1B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_coin" x="960" y="544" name="inst_7EFB4610" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object47_ememy" x="288" y="128" name="inst_508FA4B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object47_ememy" x="512" y="160" name="inst_30F53FE2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object47_ememy" x="480" y="448" name="inst_FE41366D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object47_ememy" x="800" y="512" name="inst_425CFEB6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object47_ememy" x="800" y="96" name="inst_F78E121C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object47_ememy" x="640" y="416" name="inst_15C1ACBC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
