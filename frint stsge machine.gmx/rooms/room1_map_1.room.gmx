@@ -386,6 +386,8 @@
     <instance objName="object47_ememy" x="800" y="512" name="inst_425CFEB6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object47_ememy" x="800" y="96" name="inst_F78E121C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object47_ememy" x="640" y="416" name="inst_15C1ACBC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object56_meay" x="192" y="128" name="inst_84C937E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object56_meay" x="832" y="64" name="inst_0F99A5FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

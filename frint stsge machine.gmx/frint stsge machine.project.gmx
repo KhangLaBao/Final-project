@@ -78,6 +78,7 @@
     <sprite>sprites\sprite60_grenade</sprite>
     <sprite>sprites\sprite62_BOSS</sprite>
     <sprite>sprites\sprite63_boss_bullet</sprite>
+    <sprite>sprites\sprite64_meat</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -161,6 +162,7 @@
     <object>objects\object53_troll</object>
     <object>objects\object54_grenade</object>
     <object>objects\object55_bullet_boss</object>
+    <object>objects\object56_meay</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\map_rooom_dev</room>
